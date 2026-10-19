@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}   
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    font-size: 30px;
+    padding: 20px;
+    
+}
+
+nav ul li a:hover {
+    color: red;
+    transition: 0.2s ease-in;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
