@@ -35,3 +35,31 @@ nav ul li a {
     text-decoration: none;
     color: white;
 }
+
+footer {
+    background-color: #585858;
+    color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.top-button {
+    display: inline-block;
+    background-color: #f8f8f8;
+    color: black;
+    padding: 10px 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.top-button:hover {
+    background-color: #eedf77;
+}
+
+.top-button:focus-visible {
+    outline: 3px solid #eedf77;
+    outline-offset: 3px;
+}
